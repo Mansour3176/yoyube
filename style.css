@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size: 10px;
+}
+header{
+    width: 100%;
+    height:90vh;
+    padding: 15px 59px;
+    background-color: black;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/login-bg.jpeg);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+header .left img{
+    width: 100%;
+    height: 40px;
+}
+
+
+
+.right .btn-danger{
+    font-size: 1.3rem;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    padding-right:20px ;
+    padding-left:20px ;
+    margin-left: 10px;
+    
+ }
+ .right .select{
+    font-size: 1.3rem;
+
+    padding-top: 9px;
+    padding-bottom: 13px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    background-color: transparent;
+    color: white;
+
+ }
+ .right .select option{
+    color: white;
+    background-color: black;
+ }
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+width: 100%;
+height: 100%;
+}
+.content input{
+width: 300px;
+height: 37px;
+padding: 10px 20px;  
+   background-color: transparent;
+
+}
+.content button{
+padding: 10px 20px; 
+font-weight: bold;
+width: 120px;
+border-radius: 0;
+}
+
+form{
+    padding: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divider{
+    background-color: #1f1d1d;
+ width: 100%;
+    height: 15px;
+}
+.title{
+    letter-spacing: 2px;
+    width: 528px;
+word-spacing: 2px;
+}
+.main{
+    background-color: black;
+    height: 100%;
+}
+.main-title{
+    max-width: 350px;
+}
+.footer{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+ul{
+    list-style: none;
+    font-size: 15px ;
+    color: rgba(255, 255, 255, 0.367);
+    font-weight: 100;
+}
+
+
+.service-btn{
+    background-color: transparent;
+     margin-left: 30px;
+      color: rgba(255, 255, 255, 0.367);
+      border: 1px solid rgba(255, 255, 255, 0.367);
+      font-size: 15px;
+      font-weight: 100;
+}
+
+.copy-right{
+    font-size: 15px;
+      font-weight: 200;
+      color: rgb(249, 14, 14);
+      margin-left: 28px;
+}
